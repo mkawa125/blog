@@ -11,10 +11,10 @@
 |
 */
 
-Auth::routes();
 
+Route::get('/', 'HomeController@index');
+Auth::routes();
 Route::group(['middleware' => ['auth']], function() {
-    Route::get('/' , 'HomeController@index');
     Route::resource('roles','RoleController');
     Route::resource('users','UserController');
     Route::resource('products','ProductController');
