@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('users.blogs.index');
+        return view('layouts.index');
     }
 
     public function testBroadcast()
