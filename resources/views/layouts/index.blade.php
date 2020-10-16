@@ -16,6 +16,7 @@
 
         <link rel="stylesheet"
               href="{{ asset('template/css/bootstrap.min.css') }}">
+              
         <link rel="stylesheet"
               href="{{ asset('template/css/jquery-ui.css') }}">
         <link rel="stylesheet"
