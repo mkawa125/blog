@@ -44,6 +44,26 @@
 
         <link rel="stylesheet"
               href="{{ asset('template/css/style.css') }}">
+
+        <style>
+        .site-navbar{
+            box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            background-color: #21618C;
+            color: white;
+            padding: 15px 0;
+
+        }
+        .mobile-nav{
+            padding: 15px 20px;
+            box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            background-color: #21618C;
+            color: white;
+
+        }
+        .nav-link{
+            padding: 0 0.5rem;
+        }
+        </style>
     </head>
 
     <body data-spy="scroll"
