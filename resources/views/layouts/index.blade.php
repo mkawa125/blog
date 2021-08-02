@@ -8,8 +8,7 @@
               content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-        <link href="https://fonts.googleapis.com/css?family=B612+Mono|Cabin:400,700&display=swap"
-              rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
         <link rel="stylesheet"
               href="{{ asset('template/fonts/icomoon/style.css') }}">
